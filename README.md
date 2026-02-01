@@ -2,9 +2,9 @@
 
 ## 環境構築
 **Dockerビルド**
-1.`git@github.com:satsuki-fukuda/second-confirmation-test.git`
-2. DockerDesktopアプリを立ち上げる
-3. `docker-compose up -d --build`
+<br>1.`git@github.com:satsuki-fukuda/second-confirmation-test.git`</br>
+<br>2. DockerDesktopアプリを立ち上げる</br>
+<br>3. `docker-compose up -d --build`</br>
 
 **Laravel環境構築**
 1. `docker-compose exec php bash`
@@ -32,6 +32,13 @@ php artisan migrate
 7. シーディングの実行
 ``` bash
 php artisan db:seed
+```
+
+8.提供画像
+<br>https://drive.google.com/file/d/1O_3WqPdrU9fOEdbKEkrJ_qMN0CcLD53d/view?usp=drive_link
+をダウンロードしstorage/app/imagesファイルを作成、画像保存し下記を実行</br>
+``` bash
+php artisan storage:link
 ```
 
 ## 使用技術(実行環境)
