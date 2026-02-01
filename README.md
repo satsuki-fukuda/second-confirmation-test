@@ -40,7 +40,8 @@ php artisan db:seed
 - MySQL8.0.26
 
 ## ER図
-![alt](erd.png)
+<img width="691" height="269" alt="end" src="https://github.com/user-attachments/assets/0ca3da0e-691c-4121-9eae-0c1710852989" />
+
 
 ## URL
 - 開発環境：http://localhost/
