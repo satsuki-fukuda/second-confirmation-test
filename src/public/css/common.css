@@ -1,0 +1,20 @@
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    color: #d2bd24;
+    font-family: "Farsan", cursive;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 35px;
+}
